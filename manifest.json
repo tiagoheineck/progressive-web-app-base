@@ -1,6 +1,6 @@
 {
-    "name": "DHeineck - Base Progressive Web App",
-    "short_name": "DHeineck-PWA",
+    "name": "DHeineck",
+    "short_name": "DHeineck",
     "theme_color": "#FF5733",
     "background_color": "#FF5733",
     "display": "standalone",
