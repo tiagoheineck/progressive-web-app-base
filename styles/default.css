@@ -42,6 +42,10 @@ p {
     margin-bottom: 20px;
 }
 
+a {
+    color: #C2C6D3;
+}
+
 footer {
     text-align: center;
     font-size: 0.8em;
