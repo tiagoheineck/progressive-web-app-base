@@ -1,6 +1,6 @@
-const CACHE_NAME = 'dheineck-2020-04-12';
+const CACHE_NAME = 'dheineck-2020-04-17';
 
-this.addEventListener("install", event => {
+self.addEventListener("install", event => {
   this.skipWaiting();
 
   event.waitUntil(
@@ -22,7 +22,7 @@ this.addEventListener("install", event => {
 
 
 // Clear cache on activate
-this.addEventListener('activate', event => {
+self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
@@ -36,7 +36,7 @@ this.addEventListener('activate', event => {
 });
 
 // Serve from Cache
-this.addEventListener("fetch", event => {
+self.addEventListener("fetch", event => {
   event.respondWith(
     caches.match(event.request)
       .then(response => {
