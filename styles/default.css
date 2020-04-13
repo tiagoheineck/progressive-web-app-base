@@ -38,24 +38,31 @@ h2 {
     margin-bottom: 20px;
 }
 
+
+dd {
+    text-indent: 20px;
+}
+
 p {
     margin-bottom: 20px;
 }
 
 a {
-    color: #C2C6D3;
+    color: #26353e;
 }
 
 footer {
-    text-align: center;
-    font-size: 0.8em;
+    text-align: center;    
 }
 
+.inline > li {
+    display: inline;
+}
 
 li {
     list-style: none;
     border-bottom: 1px solid #C2C6D3;
-    padding: 5px
+    padding: 5px;    
 }
 
 @media (max-width: 1000px) {
