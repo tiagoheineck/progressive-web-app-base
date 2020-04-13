@@ -5,8 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DHeineck - Progressive Web App Base</title>
     <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/styles/default.css">
+
+
 </head>
-<body>    
+<body>   
+    <header>
+      <h1>Dev Heineck</h1>
+    </header>
+    
+    <main>
+      <div class="item">
+          <h2>Sobre</h2>
+          <p>
+            Tiago Heineck trabalha como desenvolvedor web, atuando mais com backend. Igual ao pai do Cris, tem 2 empregos.
+            Ou seja, nas horas vagas é professor do Curso de Ciência da Computação.
+          </p>
+          <p>
+            Como desenvolvedor, trabalha desde 2011 com PHP, às vezes utilizando framework e outras vezes na "unha". trabalha no Instituto Federal Catarinense, fazendo parte da equipe técnica
+            do Campus Videira. Bem, não só desenvolvimento de sistemas web, mas também quando precisa se vira com servidores Linux, impressoras
+            e outras coisas mais, levando a sério o conceito de TI, ou seja, Tudo Incluso.
+          </p>
+          <p>Já como professor, atua desde 2016 na UNOESC Videira .O foco principal é nas disciplinas de Engenharia de Software ou Programação, tentando levar as ideias bacanas dos principais autores 
+            da área e um pouquinho da experiência como desenvolvedor.</p>
+      </div>
+      <div class="item">
+        <h2>Interesses</h2>
+        <ul>
+          <li>Engenharia de Software</li>
+          <li>Arquitetura de Software</li>
+          <li>Desenvolvimento Web / Backend</li>
+          <li>Banco de Dados / SQL</li>          
+          <li>Linux</li>
+          <li>Processos de Software</li>
+          <li>Educação / Metodologia Ativa</li>          
+        </ul>
+      </div>
+      <div class="item">
+        <h2>Contato</h2>
+        
+      </div>
+    </main>
+
+    <footer>
+        Feito com HTML, CSS e Javascript
+    </footer>
+
     <script>
         if ('serviceWorker' in navigator) {
           navigator.serviceWorker.register('/service-worker.js')
