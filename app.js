@@ -3,6 +3,8 @@ const app = express();
 
 const env = process.env.NODE_ENV;
 
+console.log("ENV: " + process.env)
+
 if (env == 'production') {
     app.use((req, res, next) => { //Cria um middleware onde todas as requests passam por ele 
         if (req.headers["x-forwarded-proto"] == "http") //Checa se o protocolo informado nos headers é HTTP 
