@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dheineck-2020-04-14';
+const CACHE_NAME = 'dheineck-2020-04-14b';
 
 self.addEventListener("install", event => {
   this.skipWaiting();
