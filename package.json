@@ -1,0 +1,13 @@
+{
+  "name": "DHeineck",
+  "version": "1.0.0",
+  "description": "Dheineck Website",
+  "author": "Tiago Heineck",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "4.x.x"
+  }
+}
