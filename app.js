@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const env = 'development'
+const env = process.env.NODE_ENV;
 
 if (env == 'production') {
     app.use((req, res, next) => { //Cria um middleware onde todas as requests passam por ele 
@@ -15,7 +15,7 @@ if (env == 'production') {
 app.use(express.static(__dirname));
 
 app.get('*', function(req, res){
-  res.redirect('/');
+  res.redirect('/'); 
 });
 
 
