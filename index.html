@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DHeineck - Tiago Heineck</title>
     <link rel="manifest" href="/manifest.json">
+
+    
+    
     <link rel="stylesheet" href="/styles/default.css">
 
 
@@ -85,6 +88,20 @@
 
       </script>
 
-      <script src="/scripts.js"></script>
+      <script src="/firebase-config.js"></script>
+      <script src="/scripts.js"></script>      
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>  
+      <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-messaging.js"></script>  
+      
+
+      <script>                
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        
+      </script>
+
+      <script src="/push.js"></script>
+      
 </body>
 </html>
