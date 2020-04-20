@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dheineck-2020-04-14b';
+const CACHE_NAME = 'dheineck-2020-04-20';
 
 self.addEventListener("install", event => {
   this.skipWaiting();
@@ -13,7 +13,8 @@ self.addEventListener("install", event => {
             '/manifest.json',
             '/favicon.ico',
             '/styles/default.css',
-            '/offline/index.html'
+            '/offline/index.html',
+            '/scripts.js'
           ]);
         })
     })
